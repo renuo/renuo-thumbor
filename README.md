@@ -24,3 +24,4 @@ Set Env variable THUMBOR_SECURITY_KEY
 
 git clone git@git.renuo.ch:renuo/renuo-thumbor.git
 cd renuo-thumbor
+
