@@ -1,7 +1,7 @@
 # Renuo Thumbor Config
 
-This repository contains the configuration files which are required to run (thumbor)[https://github.com/thumbor/thumbor] on 
-(Heroku)[https://www.heroku.com].
+This repository contains the configuration files which are required to run [thumbor](https://github.com/thumbor/thumbor) on 
+[Heroku](https://www.heroku.com).
 
 ## Deployment
 
