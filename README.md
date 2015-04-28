@@ -11,6 +11,7 @@ git clone https://github.com/renuo/renuo-thumbor.git
 cd renuo-thumbor
 git remote add heroku git@heroku.com:example.git
 heroku config:set THUMBOR_SECURITY_KEY='<long random string, min 28 characters, e.g. UJwHAZLsRejTyLI88lAriHL7xAXa6q0umiwwpPcP>'
+heroku config:set WEB_CONCURRENCY=20
 git push heroku master
 ```
 
