@@ -8,7 +8,7 @@ This repository contains the configuration files which are required to run [thum
 * Install [pyenv](https://github.com/yyuu/pyenv) and [pyenv-virtualenv](https://github.com/yyuu/pyenv-virtualenv)
 
 ```sh
-pyenv install
+pyenv install 2.7.9
 ```
 
 * Install virtualenvwrapper
@@ -26,7 +26,6 @@ Clone the project, setup virtualenv and install dependencies:
 git clone git@github.com:renuo/renuo-thumbor.git
 cd renuo-thumbor
 pyenv virtualenv 2.7.9 renuo-thumbor-2.7.9
-pyenv activate renuo-thumbor-2.7.9
 pip install -r requirements.txt
 pyenv rehash
 ```
