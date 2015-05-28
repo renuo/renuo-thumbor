@@ -61,6 +61,10 @@ Generate it randomly, and keep it secret (only shared with the thumbor app).
 
 Example: UJwHAZLsRejTyLI88lAriHL7xAXa6q0umiwwpPcP
 
+### SENTRY_DSN
+
+The SENTRY_DSN is a DSN fot Sentry to monitor thumbor.
+
 ## Renuo Thumbs Proxy
 
 See https://github.com/renuo/renuo-thumbs-proxy
