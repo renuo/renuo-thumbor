@@ -45,6 +45,7 @@ cd renuo-thumbor
 git remote add heroku git@heroku.com:example.git
 heroku config:set THUMBOR_SECURITY_KEY='<long random string, min 28 characters, e.g. UJwHAZLsRejTyLI88lAriHL7xAXa6q0umiwwpPcP>'
 heroku config:set WEB_CONCURRENCY=20
+heroku config:set SENTRY_DSN='https://<random string>@app.getsentry.com/'
 git push heroku master
 ```
 
@@ -64,6 +65,8 @@ Example: UJwHAZLsRejTyLI88lAriHL7xAXa6q0umiwwpPcP
 ### SENTRY_DSN
 
 The SENTRY_DSN is a DSN fot Sentry to monitor thumbor.
+
+See https://getsentry.com
 
 ## Renuo Thumbs Proxy
 
